@@ -49,11 +49,11 @@ def main():
 
     # Build the buoy DataFrame and map
 
-    buoys = {"station_id":["44011","42060","46029"],
-             "name":["Georges Bank","Caribbean Valley","Columbia River Bar"],
-             "latitude":[41.088, 16.434, 46.252],
-             "longitude":[-66.546, -63.329, -124.056],
-             "region":["North Atlantic","Caribbean","Pacific"]}
+    buoys = {"station_id":["44011","42060","46029","41002"],
+             "name":["Georges Bank","Caribbean Valley","Columbia River Bar", "Cape Hatteras"],
+             "latitude":[41.088, 16.434, 46.252, 31.743],
+             "longitude":[-66.546, -63.329, -124.056, -74.955],
+             "region":["North Atlantic","Caribbean","Pacific", "Atlantic"]}
     
     buoy_df = pd.DataFrame(buoys)
 
