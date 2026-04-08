@@ -53,7 +53,7 @@ def main():
              "name":["Georges Bank","Caribbean Valley","Columbia River Bar", "Cape Hatteras"],
              "latitude":[41.088, 16.434, 46.252, 31.743],
              "longitude":[-66.546, -63.329, -124.056, -74.955],
-             "region":["North Atlantic","Caribbean","Pacific", "Atlantic"]}
+             "region":["North Atlantic","Caribbean","Pacific", "Atlantic1"]}
     
     buoy_df = pd.DataFrame(buoys)
 
